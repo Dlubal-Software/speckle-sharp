@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DlubalWSHandler", "DlubalWSHandler\DlubalWSHandler.csproj", "{A402BE75-8A29-47F3-A494-8A66B90A3EFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestExampleApp", "TestExampleApp\TestExampleApp.csproj", "{650F28DB-4761-481F-9A47-C52B8AAD5518}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A402BE75-8A29-47F3-A494-8A66B90A3EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A402BE75-8A29-47F3-A494-8A66B90A3EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A402BE75-8A29-47F3-A494-8A66B90A3EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A402BE75-8A29-47F3-A494-8A66B90A3EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650F28DB-4761-481F-9A47-C52B8AAD5518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650F28DB-4761-481F-9A47-C52B8AAD5518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650F28DB-4761-481F-9A47-C52B8AAD5518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650F28DB-4761-481F-9A47-C52B8AAD5518}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D8A2B0F-A704-4451-8780-241B72271BD8}
+	EndGlobalSection
+EndGlobal

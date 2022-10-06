@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Speckle.DesktopUI" Version="2.8.0" />
+    <PackageReference Include="Speckle.Objects" Version="2.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DlubalWSHandler\DlubalWSHandler\DlubalWSHandler.csproj" />
+    <ProjectReference Include="..\ConverterDlubal\ConverterDlubal.csproj" />
+  </ItemGroup>
+
+</Project>

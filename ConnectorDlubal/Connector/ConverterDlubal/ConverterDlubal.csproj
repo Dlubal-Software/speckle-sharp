@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Objects.Converter.DLUBAL</PackageId>
+    <AssemblyName>Objects.Converter.DLUBAL</AssemblyName>
+    <RootNamespace>Objects.Converter.DLUBAL</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Speckle.Objects" Version="2.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DlubalWSHandler\DlubalWSHandler\DlubalWSHandler.csproj" />
+  </ItemGroup>
+
+</Project>
